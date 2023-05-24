@@ -1,6 +1,6 @@
 MAX = 5
 stack = [0]*MAX
-sp = 0 # スタックポインタ
+sp = 0 #スタックポインタ
 
 def push(d):
     global sp
@@ -23,12 +23,12 @@ def pop():
 push(1)
 push(2)
 
-pop_item = pop ()
+pop_item = pop()
 if pop_item is not None:
     print("データ", pop_item, "を取り出しました")
 else:
     print("スタックは空")
+
 push(3)
 push(4)
 push(5)
-
